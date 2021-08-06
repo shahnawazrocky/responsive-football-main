@@ -267,9 +267,12 @@ header .container .header-right img {
 .match-section {
     min-height: 400px;
     margin: 150px 0px;
-    
+    overflow: hidden;
 }
 
+/* .match-section:hover img{
+    transform: scale(1.5);
+} */
 .match-section h1 {
     font-family: Poppins;
     font-style: normal;
@@ -306,7 +309,10 @@ header .container .header-right img {
     padding: 20px;
     padding-top: 40px;
 }
-
+.match-container .match-content img:hover{
+    transform: scale(1.4);
+    transition: transform 1s ease-in;
+}
 .match-container .match-content p {
     font-family: Poppins;
     font-style: normal;
