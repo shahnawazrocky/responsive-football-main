@@ -312,6 +312,7 @@ header .container .header-right img {
 .match-container .match-content img:hover{
     transform: scale(1.4);
     transition: transform 1s ease-in;
+    cursor: pointer;
 }
 .match-container .match-content p {
     font-family: Poppins;
