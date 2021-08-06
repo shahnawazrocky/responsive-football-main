@@ -1,0 +1,476 @@
+/*Extra Small Devices*/
+/*xsm (320-480)*/
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    header .container nav {
+        display: none;
+    }
+    header .container .header-layout {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    header .container .header-left .header-title h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+        color: #FFFFFF;
+        
+    }
+
+    header .container .header-right img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+    }
+
+    .player-section .container .player-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        
+    }
+
+    .player-section .container .player-info .player-content {
+        margin-bottom: 24px;
+    }
+
+    .highlights-section {
+        min-height: 450px;
+        margin: 50px 0px;
+    }
+
+    .highlights-section .container {
+        margin: 0px 10%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .highlights-section {
+        min-height: 450px;
+        margin: 50px 0px;
+    }
+
+
+    .highlights-section .container .highlights-left h1 {
+        font-size: 34px;
+        line-height: 40px;
+        color: #0A0826;
+    }
+
+    .highlights-section .container .highlights-right img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    article .blog-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    article .blog-content {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        flex-direction: column;
+    }
+    article .blog-section img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .recommended-section .recommended-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .recommended-section h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 29px;
+        line-height: 39px;
+        color: #0A0826;
+        margin: 0px 10% 20px;
+    }
+
+    .recommended-container .recommended-content {
+        margin-bottom: 20px;
+    }
+
+    .footer-container img {
+        width: 80%;
+        height: 110px;
+    }
+    
+
+
+}
+
+/*Small Devices*/
+/*sm (481-767)*/
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    header .container nav {
+        display: none;
+    }
+    header .container .header-layout {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .container .header-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+
+    header .container .header-left .header-title h1 {
+        font-family: Poppins;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+
+    header .container .header-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .container .header-right img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+    }
+
+
+    .player-section .container .player-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .player-section .container .player-info .player-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 24px;
+    }
+
+    .highlights-section {
+        min-height: 450px;
+        margin: 50px 0px;
+    }
+
+    .highlights-section .container {
+        margin: 0px 10%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .highlights-section {
+        min-height: 450px;
+        margin: 50px 0px;
+    }
+
+
+    .highlights-section .container .highlights-left h1 {
+        font-size: 34px;
+        line-height: 50px;
+        color: #0A0826;
+    }
+
+    .highlights-section .container .highlights-right img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    article {
+        min-height: 400px;
+        margin: 100px 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    article .blog-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    article .blog-content {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        flex-direction: column;
+    }
+    article .blog-section img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .recommended-section {
+        min-height: 400px;
+        margin: 50px 0px;
+    }
+
+    .recommended-section .recommended-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .recommended-section h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 29px;
+        line-height: 39px;
+        color: #0A0826;
+        margin: 0px 10% 20px;
+    }
+
+    .recommended-container .recommended-content {
+        margin-bottom: 20px;
+    }
+    .footer-container img {
+        width: 80%;
+        height: 110px;
+    }
+    
+
+
+}
+/*Medium Devices*/
+/*md (768-991)*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    header .container nav {
+        display: none;
+    }
+    header .container .header-layout {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .container .header-left .header-title h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+        color: #FFFFFF;
+        
+    }
+
+    header .container .header-right img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+    }
+
+
+    .player-section .container .player-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .player-section .container .player-info .player-content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 24px;
+    }
+    .player-section .container .player-info .player-content img {
+        width: 100%;
+        height: 256px;
+        object-fit: cover;
+    }
+
+    .highlights-section {
+        min-height: 450px;
+        margin: 50px 0px;
+    }
+
+    .highlights-section .container {
+        margin: 0px 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .highlights-section {
+        min-height: 350px;
+        margin: 50px 0px;
+    }
+
+
+    .highlights-section .container .highlights-left h1 {
+        font-size: 16px;
+        line-height: 50px;
+        color: #0A0826;
+    }
+
+    .highlights-section .container .highlights-right img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    article {
+        min-height: 400px;
+        margin: 50px 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    article .blog-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 15px;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    article .blog-content {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    article .blog-section img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    article .blog-info p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: black;
+    }
+
+
+    .recommended-section {
+        min-height: 400px;
+        margin: 50px 0px;
+    }
+
+    .recommended-section .recommended-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .recommended-section h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 29px;
+        line-height: 39px;
+        color: #0A0826;
+        margin: 0px 10% 20px;
+    }
+
+    .recommended-container .recommended-content {
+        margin-bottom: 20px;
+    }
+    .footer-container img {
+        width: 80%;
+        height: 110px;
+    }
+
+
+}
+
+
+/*large Devices*/
+/*lg (992-1199)*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    header .container .header-layout {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .container .header-left .header-title h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+        color: #FFFFFF;
+        
+    }
+
+    header .container .header-right img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+    }
+
+
+    .player-section .container .player-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .player-section .container .player-info .player-content {
+        min-height: 500px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 24px;
+    }
+    .player-section .container .player-info .player-content img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .player-section .container .player-info .player-content h3 {
+        font-size: 22px;
+    }
+
+    .recommended-container .recommended-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+
+/*Extra large Devices*/
+/*xlg (1200-1400)*/
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {}
