@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -269,6 +267,7 @@ header .container .header-right img {
 .match-section {
     min-height: 400px;
     margin: 150px 0px;
+    
 }
 
 .match-section h1 {
@@ -326,9 +325,7 @@ header .container .header-right img {
     border-radius: 10px;
 }
 .match-container .match-content .button:hover {
- 
     background-color: rgb(68, 25, 25);
-
 }
 .match-container .match-content .button a {
     text-decoration: none;
@@ -384,7 +381,6 @@ footer {
     display: flex;
     align-items: center;
     text-align: right;
-    color: #000000;
-
+    color: black;
 
 }
